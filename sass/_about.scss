@@ -5,7 +5,13 @@ $grey-color: #d3d3d3;
 
 
 .about__article {
-    border: 1px solid #272a31;
-    background-color: #d3d3d3;
-    
+    border: 1px solid #d3d3d3;
+    background-color: white;  
+    text-align: center;  
+}
+.contact {
+    text-align: center;
+    a{
+        color: #272a31;
+    }
 }
