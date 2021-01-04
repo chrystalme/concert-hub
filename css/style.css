@@ -15,7 +15,8 @@ body {
   color: #ec5242;
 }
 .heading h1, .heading .h1 {
-  font-weight: bold;
+  font-size: xx-large;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 
@@ -33,6 +34,8 @@ body {
 .main__program {
   background: url(/images/main-program-bg.png) repeat-y;
   color: #d3d3d3;
+  margin: auto;
+  width: 100%;
 }
 .main__program h2, .main__program .h2 {
   border-bottom: 3px solid #ec5242;
@@ -41,12 +44,11 @@ body {
   color: #ec5242;
 }
 .main__program div {
-  background-color: #d4d4d462;
+  background-color: #d4d4d423;
 }
 .main__program input {
   color: #d3d3d3;
   background-color: #ec5242;
-  margin: auto;
   border: none;
 }
 
@@ -54,12 +56,46 @@ body {
   background: none;
 }
 
+.featured__artists button {
+  width: 100%;
+  border-color: #d3d3d3;
+}
 .featured__artists h2, .featured__artists .h2 {
   border-bottom: 3px solid #ec5242;
 }
+.featured__artists h4, .featured__artists .h4 {
+  font-size: larger;
+  font-weight: bold;
+}
+.featured__artists h5, .featured__artists .h5 {
+  color: #ec5242;
+  font-size: small;
+  font-style: italic;
+}
+.featured__artists h6, .featured__artists .h6 {
+  font-size: smaller;
+}
 .featured__artists img {
-  min-width: 5rem;
-  min-height: 5rem;
+  max-width: 7rem;
+}
+.featured__artists .img-1 {
+  position: relative;
+  z-index: 0;
+  max-width: 4rem;
+}
+.featured__artists .img-2 {
+  position: relative;
+  top: -2rem;
+  left: 1rem;
+  z-index: 1;
+}
+.featured__artists .down-arrow {
+  color: #ec5242;
+}
+
+.about__article {
+  border: 1px solid #272a31;
+  background-color: #d3d3d3;
 }
 
 /*!
