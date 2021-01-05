@@ -10,30 +10,88 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <header>
-            <nav class="h-25 mb-4 d-block d-md-none">
-                <div class="menu-icon">
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i
-                            class="fas fa-bars fa-3x"></i></a>
-                    <div id="links">
-                        <a href="about.html">About</a>
-                        <a href="get-ticket.html">Tickets</a>
-                        <a href="#">News</a>
-                        <a href="#">Join</a>
-                        <a href="#">Sponsor</a>
-                    </div>
+    <header>
+        <nav class="h-25 mb-4 d-block d-md-none">
+            <div class="menu-icon">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i
+                        class="fas fa-bars fa-3x"></i></a>
+                <div id="links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="get-ticket.html">Tickets</a>
+                    <a href="#">News</a>
+                    <a href="#">Sponsor</a>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
+    <div class="container">        
         <section class="section__ticket">
             <h2 class="my-2 p-2 text-center">Select Tickets</h2>
             <div class="decor"></div>
-            <div class=" my-2 text-center">
-                <h3 class="highlight">STEP 1</h3>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consequuntur dicta soluta
-                    debitis?</p>
+            <div
+                class="step__ticket my-4 px-2 py-3 text-center d-flex flex-row justify-content-between align-items-center">
+                <h4 class="highlight">STEP 1</h4>
+                <h6> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consequuntur dicta soluta
+                    debitis?</h6>
+            </div>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ticket</th>
+                            <th>1-Day-Ticket</th>
+                            <th colspan="2">2-Day-Ticket</th>
+                            <th>CC Affiliate/Partners</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Date</td>
+                            <td>13th Feb(Sat)</td>
+                            <td>14th Feb(Sun)</td>
+                            <td>13th-14th Feb(Sat-Sun)</td>
+                            <td>13th-14th Feb(Sat-Sun)</td>
+                        </tr>
+                        <tr>
+                            <td>Normal</td>
+                            <td>&dollar;20 <input type="radio" name="normal"></td>
+                            <td>&dollar;50 <input type="radio" name="normal"></td>
+                            <td>&dollar;70 <input type="radio" name="normal"></td>
+                            <td>&dollar;0 <input type="radio" name="normal"></td>
+                        </tr>
+                        <tr>
+                            <td>Student</td>
+                            <td>&dollar;5 <input type="radio" name="student"></td>
+                            <td>&dollar;10 <input type="radio" name="student"></td>
+                            <td>&dollar;20 <input type="radio" name="student"></td>
+                            <td>&dollar;0 <input type="radio" name="student"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <div class="my-5 square"><i class="text-white fas fa-chevron-down"></i></div>
+                <div>
+                    <h2 class="my-2 p-2 text-center">Select Your Lunch</h2>
+                    <div class="decor"></div>
+                    <div class="step__ticket my-4 px-2 py-3 text-center d-flex flex-row justify-content-between align-items-center">
+                        <h4 class="highlight">STEP 2</h4>
+                        <h6> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae consequuntur dicta
+                            soluta
+                            debitis?</h6>
+                    </div>
+                    <div>
+                        <h2 class="text-center shadow p-3 m-auto mb-3 rounded w-50">Normal Menu</h2>
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                        Menu 1<input type="radio" name="menu-normal" >
+                        Menu 2<input type="radio" name="menu-normal" >
+                        Menu 3<input type="radio" name="menu-normal" >
+                        Menu 4<input type="radio" name="menu-normal" >
+                        Menu 5<input type="radio" name="menu-normal" >
+                    </div>
+                    </div>
+                </div>
             </div>
         </section>
 

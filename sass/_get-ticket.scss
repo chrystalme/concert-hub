@@ -3,11 +3,51 @@ $black-color: #272a31;
 $orange-color: #ec5242;
 $grey-color: #d3d3d3;
 
-
 .section__ticket {
-    p {
-    border: 1px solid $black-color;
-    border-radius: 4px;
-    display: inline
+    text-align: center;
+
+    .step__ticket {
+    border: 1px solid $grey-color;
+    border-radius: 40px;
+    }
+    h4{
+        display: inline;
+        color: $orange-color;
+        text-transform: uppercase;
+        font-size: medium;
+    }
+    h6 {
+        display: inline;
+        font-size: small;
+    }
+}
+
+.decor {
+    border-bottom: 3px solid $orange-color;
+    margin: auto;
+    width: 30px;    
+} 
+
+.highlight {
+    width: 20%;
+}
+.highlight::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: $orange-color;
+    transform: rotateX(45deg);
+}
+.square{
+    background-color: $orange-color;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    transform: rotate(45deg);
+    i {
+        position: relative;
+        top: 8px;
+        translate:-15px ;
+       transform: rotate(-45deg); 
     }
 }

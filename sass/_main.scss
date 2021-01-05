@@ -12,14 +12,19 @@ body {
   color: #272a31;
   overflow: hidden;
   position: relative;
+  background-image: url(/images/3682513.jpg);
+  background-size: cover;
   i {
-    color: #272a31;
+    color: $grey-color;
+    &:hover {
+      color: $orange-color;
+    }
   }
   #links {
      display: none;
   }
   a{
-    color: $black-color;
+    color: $grey-color;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
