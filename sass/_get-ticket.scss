@@ -30,6 +30,10 @@ $grey-color: #d3d3d3;
 
 .highlight {
     width: 20%;
+    i{
+        font-size: xx-small;
+        transform: rotate(45deg);
+    }
 }
 .highlight::before {
     content: "";

@@ -217,6 +217,10 @@ body {
 .highlight {
   width: 20%;
 }
+.highlight i {
+  font-size: xx-small;
+  transform: rotate(45deg);
+}
 
 .highlight::before {
   content: "";
