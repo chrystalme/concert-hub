@@ -1,0 +1,13 @@
+//Variables
+$black-color: #272a31;
+$orange-color: #ec5242;
+$grey-color: #d3d3d3;
+
+
+.section__ticket {
+    p {
+    border: 1px solid $black-color;
+    border-radius: 4px;
+    display: inline
+    }
+}

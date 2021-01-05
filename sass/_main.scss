@@ -19,21 +19,22 @@ body {
      display: none;
   }
   a{
-    .icon{
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;      
-    }
-    color: $grey-color;
+    color: $black-color;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-
     &:hover{
-      background-color: $grey-color;
-      color: $black-color;
+      color: $orange-color;
+    }
+    .icon{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; 
+      &:hover{
+        color: $orange-color;
+      }     
     }
   }
   .active {

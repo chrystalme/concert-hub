@@ -16,11 +16,14 @@ body {
   display: none;
 }
 .menu-icon a {
-  color: #d3d3d3;
+  color: #272a31;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+}
+.menu-icon a:hover {
+  color: #ec5242;
 }
 .menu-icon a .icon {
   display: block;
@@ -28,9 +31,8 @@ body {
   top: 0;
   left: 0;
 }
-.menu-icon a:hover {
-  background-color: #d3d3d3;
-  color: #272a31;
+.menu-icon a .icon:hover {
+  color: #ec5242;
 }
 .menu-icon .active {
   background-color: #ec5242;
@@ -181,6 +183,12 @@ body {
   width: 100px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.section__ticket p {
+  border: 1px solid #272a31;
+  border-radius: 4px;
+  display: inline;
 }
 
 /*!
