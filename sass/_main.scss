@@ -10,8 +10,35 @@ body {
 
 .menu-icon {
   color: #272a31;
+  overflow: hidden;
+  position: relative;
   i {
     color: #272a31;
+  }
+  #links {
+     display: none;
+  }
+  a{
+    .icon{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;      
+    }
+    color: $grey-color;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+    &:hover{
+      background-color: $grey-color;
+      color: $black-color;
+    }
+  }
+  .active {
+    background-color: $orange-color;
+    color: $grey-color;
   }
 }
 

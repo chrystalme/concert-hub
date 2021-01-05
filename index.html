@@ -13,9 +13,16 @@
 
     <div class="container">
         <header>
-            <nav class="h-25 mb-4">
+            <nav class="h-25 mb-4 d-md-none">
                 <div class="menu-icon">
-                    <a href="#"><i class="fas fa-bars fa-3x"></i></a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars fa-3x"></i></a>
+                    <div id="links">
+                        <a href="about.html">About</a>
+                        <a href="#">Tickets</a>
+                        <a href="#">News</a>
+                        <a href="#">Join</a>
+                        <a href="#">Sponsor</a>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -115,6 +122,16 @@
         </section>
 
     </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("links");
+            if (x.style.alignContent === "block") {
+                x.style.display = "none";                
+            }else{
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>

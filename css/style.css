@@ -6,9 +6,35 @@ body {
 
 .menu-icon {
   color: #272a31;
+  overflow: hidden;
+  position: relative;
 }
 .menu-icon i {
   color: #272a31;
+}
+.menu-icon #links {
+  display: none;
+}
+.menu-icon a {
+  color: #d3d3d3;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.menu-icon a .icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu-icon a:hover {
+  background-color: #d3d3d3;
+  color: #272a31;
+}
+.menu-icon .active {
+  background-color: #ec5242;
+  color: #d3d3d3;
 }
 
 .heading {
