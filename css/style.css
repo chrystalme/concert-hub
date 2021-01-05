@@ -136,6 +136,27 @@ body {
   font-weight: bolder;
 }
 
+.decor-partner {
+  border-bottom: 3px solid #ec5242;
+  margin: auto;
+  width: 50px;
+}
+
+.partner {
+  text-align: center;
+  color: #d3d3d3;
+  background-color: #272a31;
+}
+
+.partner__logos {
+  width: 100%;
+}
+.partner__logos img {
+  width: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

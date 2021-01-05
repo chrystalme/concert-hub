@@ -15,12 +15,13 @@ $grey-color: #d3d3d3;
         color: $black-color;
     }
 }
+
 .decor {
     border-bottom: 3px solid $orange-color;
     margin: auto;
-    width: 30px;
-    
+    width: 30px;    
 }
+
 .event-2019 {
    background: linear-gradient(0deg, rgb(208 0 0 / 60%) 0%, rgb(214 3 3 / 75%) 100%), url(/images/pexels-roman-odintsov-6334542.jpg) no-repeat;
     height: 250px;
@@ -33,6 +34,7 @@ $grey-color: #d3d3d3;
     width: 100%;
     background-size: cover;
 }
+
 .about__event {
     a{
         text-decoration: none;
@@ -42,5 +44,25 @@ $grey-color: #d3d3d3;
     }
     h2{
         font-weight: bolder;
+    }
+}
+
+.decor-partner {
+    border-bottom: 3px solid $orange-color;
+    margin: auto;
+    width: 50px;    
+}
+
+.partner {
+    text-align: center;
+    color: $grey-color;
+    background-color: $black-color;
+}
+.partner__logos{
+    width: 100%;
+    img{
+        width: 100px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
     }
 }
