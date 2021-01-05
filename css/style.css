@@ -112,6 +112,30 @@ body {
   width: 30px;
 }
 
+.event-2019 {
+  background: linear-gradient(0deg, rgba(208, 0, 0, 0.6) 0%, rgba(214, 3, 3, 0.75) 100%), url(/images/pexels-roman-odintsov-6334542.jpg) no-repeat;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+}
+
+.event-2020 {
+  background: linear-gradient(0deg, rgba(208, 0, 0, 0.6) 0%, rgba(214, 3, 3, 0.75) 100%), url(/images/pexels-cottonbro-3171837.jpg) no-repeat;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+}
+
+.about__event a {
+  text-decoration: none;
+  color: #d3d3d3;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.about__event h2, .about__event .h2 {
+  font-weight: bolder;
+}
+
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

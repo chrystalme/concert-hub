@@ -21,3 +21,26 @@ $grey-color: #d3d3d3;
     width: 30px;
     
 }
+.event-2019 {
+   background: linear-gradient(0deg, rgb(208 0 0 / 60%) 0%, rgb(214 3 3 / 75%) 100%), url(/images/pexels-roman-odintsov-6334542.jpg) no-repeat;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+.event-2020 {
+    background: linear-gradient(0deg, rgb(208 0 0 / 60%) 0%, rgb(214 3 3 / 75%) 100%), url(/images/pexels-cottonbro-3171837.jpg) no-repeat;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+.about__event {
+    a{
+        text-decoration: none;
+        color: #d3d3d3;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    h2{
+        font-weight: bolder;
+    }
+}
