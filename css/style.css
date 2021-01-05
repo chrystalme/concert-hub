@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html,
 body {
-  font-family: cococogoose, Lato;
+  font-family: cocogoose, Lato;
 }
 
 .menu-icon {
@@ -104,6 +104,12 @@ body {
 }
 .contact a {
   color: #272a31;
+}
+
+.decor {
+  border-bottom: 3px solid #ec5242;
+  margin: auto;
+  width: 30px;
 }
 
 /*!

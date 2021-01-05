@@ -5,13 +5,19 @@ $grey-color: #d3d3d3;
 
 
 .about__article {
-    border: 1px solid #d3d3d3;
+    border: 1px solid $grey-color;
     background-color: white;  
     text-align: center;  
 }
 .contact {
     text-align: center;
     a{
-        color: #272a31;
+        color: $black-color;
     }
+}
+.decor {
+    border-bottom: 3px solid $orange-color;
+    margin: auto;
+    width: 30px;
+    
 }
