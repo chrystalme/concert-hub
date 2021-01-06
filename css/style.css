@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*stylelint-disable indentation*/
+/* stylelint-disable indentation */
 @media (max-width: 425px) {
   footer h5, footer .h5 {
     font-size: x-small;
