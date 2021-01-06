@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav class="h-25 mb-4 d-block d-md-none">
+        <nav class="h-25 mb-4 d-block d-lg-none">
             <div class="menu-icon">
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars fa-3x"></i></a>
                 <div id="links">
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </nav>
-        <nav class="d-none d-md-block">
+        <nav class="d-none d-lg-block">
             <div class="top__bar">
                 <div class="top__bar-links py-2 d-flex flex-row justify-content-end">
                     <h6><a href="#"><i class="fab fa-facebook-f"></i></a></h6>
@@ -33,26 +33,27 @@
                     <h6 class="mr-md-5"><a href="#">Logout</a></h6>
                 </div>
             </div>
-            <div>
-                <img src="/images/logo_200x200.png" alt="Concert Creative worldwide logo">
-            </div>
-            <div>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="get-ticket.html">Tickets</a>
-                <a href="#">News</a>
-                <a href="#">Sponsor</a>
-                <a href="#"></a>
+            <div class="shadow">
+                <div class="sub__bar py-2 d-flex flex-row justify-content-around align-items-center">
+                    <div>
+                        <img src="/images/logo_200x200.png" alt="Concert Creative worldwide logo">
+                    </div>
+                    <div>
+                       <h6><a href="index.html">Home</a></h6>
+                       <h6><a href="about.html">About</a></h6>
+                       <h6><a href="get-ticket.html">Tickets</a></h6>
+                       <h6><a href="#">News</a></h6>
+                       <h6><a href="#">Sponsor</a></h6>
+                       <h6><a id="barred" href="#">CC Campaign</a></h6>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
     <div class="container">
-
         <section class="heading my-3">
             <h3>&OpenCurlyDoubleQuote;Hello&excl; Would you like to join our concert&CloseCurlyDoubleQuote;</h3>
-            <h1>
-                World wide concerts and tours.
-            </h1>
+            <img src="/images/cover-heading.png" alt="WORLD WIDE CONCERTS AND TOURS.">
         </section>
         <article class="article__1 border border-white p-2">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,36 +69,37 @@
         <section>
             <div class="main__program">
                 <h2 class="text-center py-2">Main Program</h2>
+                <div class="decor-main mb-4"></div>
                 <div id="main__program-content" class="row w-100 m-auto">
-                    <div class="col d-flex justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2 w-90">
+                    <div class="col d-flex flex-md-column justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2 w-90">
                         <img class="pl-2" src="images/Layer-8.png" alt="..." height="50" width="50">
                         <h3 class="mx-3">Seminars</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, doloribus dolore
                             aliquam
                             repellat numquam</p>
                     </div>
-                    <div class="col d-flex justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2 w-90">
+                    <div class="col d-flex flex-md-column justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2 w-90">
                         <img src="images/Layer-1.png" alt="..." height="50" width="50">
                         <h3 class="mx-3">Comedy</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, doloribus dolore
                             aliquam
                             repellat numquam</p>
                     </div>
-                    <div class="col d-flex justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2">
+                    <div class="col d-flex flex-md-column justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2">
                         <img src="images/Layer-5.png" alt="..." height="50" width="50">
                         <h3 class="mx-3">UFC</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, doloribus dolore
                             aliquam
                             repellat numquam</p>
                     </div>
-                    <div class="col d-flex justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2">
+                    <div class="col d-flex flex-md-column justify-content-around align-items-center py-3 px-2 mx-2 my-2 mx-lg-2">
                         <img src="images/Layer-6.png" alt="..." height="50" width="50">
                         <h3 class="mx-3">Concert</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, doloribus dolore
                             aliquam
                             repellat numquam</p>
                     </div>
-                    <div class="col d-flex justify-content-around align-items-center py-3 px-2 mx-2 my-2">
+                    <div class="col d-flex flex-md-column justify-content-around align-items-center py-3 px-2 mx-2 my-2">
                         <img src="images/Layer-7.png" alt="..." height="50" width="50">
                         <h3 class="mx-3">Open Theatre</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, doloribus dolore
@@ -111,6 +113,7 @@
         </section>
         <section class="featured__artists">
             <h2 class="text-center py-2">Featured Artists</h2>
+            <div class="decor-main mb-4"></div>
             <div class="row">
                 <div class="col d-flex flex-row my-3 justify-content-around align-items-center">
                     <div>
@@ -136,8 +139,65 @@
                             LEAGUE*TEARS FOR FEARS*BON JOVI* and more&excl;</h6>
                     </div>
                 </div>
-                <div>
-                    <button type="button" name="more">More <i class="down-arrow fas fa-chevron-down my-3"></i></button>
+                <div >
+                    <button class="d-lg-none"  type="button" name="more">More <i class="down-arrow fas fa-chevron-down my-3"></i></button>
+                </div>
+            </div>
+            <div class="d-none d-lg-block">
+                <div class="row">
+                    <div class="col d-flex flex-row my-3 justify-content-around align-items-center">
+                        <div>
+                            <img class="img-1" src="images/checkered-bg.jpg" alt="checkered">
+                            <img class="img-2" src="images/band.jpg" alt="band for the night">
+                        </div>
+                        <div class="mx-4">
+                            <h4>Beastly Band</h4>
+                            <h5>FANTASTIC 80s! - 80s Tribute Band. Eastbourne, South East</h5>
+                            <h6>SOLO 80s TRIBUTE A non-stop 80s PARTY! The BIG songs from the likes of WHAM*HUMAN
+                                LEAGUE*TEARS FOR FEARS*BON JOVI* and more&excl;</h6>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-row my-3 justify-content-around align-items-center">
+                        <div>
+                            <img class="img-1" src="images/checkered-bg.jpg" alt="checkered">
+                            <img class="img-2" src="images/comedy.jpg" alt="band for the night">
+                        </div>
+                        <div class="mx-4">
+                            <h4>Comedy</h4>
+                            <h5>Laughter fest with your favourite comedians</h5>
+                            <h6>New stuffs from the world famous comedians. The BIG acts for the night are KEVIN HART*HUMAN
+                                LEAGUE*TEARS FOR FEARS*BON JOVI* and more&excl;</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex flex-row my-3 justify-content-around align-items-center">
+                        <div>
+                            <img class="img-1" src="images/checkered-bg.jpg" alt="checkered">
+                            <img class="img-2" src="images/band.jpg" alt="band for the night">
+                        </div>
+                        <div class="mx-4">
+                            <h4>Beastly Band</h4>
+                            <h5>FANTASTIC 80s! - 80s Tribute Band. Eastbourne, South East</h5>
+                            <h6>SOLO 80s TRIBUTE A non-stop 80s PARTY! The BIG songs from the likes of WHAM*HUMAN
+                                LEAGUE*TEARS FOR FEARS*BON JOVI* and more&excl;</h6>
+                        </div>
+                    </div>
+                    <div class="col d-flex flex-row my-3 justify-content-around align-items-center">
+                        <div>
+                            <img class="img-1" src="images/checkered-bg.jpg" alt="checkered">
+                            <img class="img-2" src="images/comedy.jpg" alt="band for the night">
+                        </div>
+                        <div class="mx-4">
+                            <h4>Comedy</h4>
+                            <h5>Laughter fest with your favourite comedians</h5>
+                            <h6>New stuffs from the world famous comedians. The BIG acts for the night are KEVIN HART*HUMAN
+                                LEAGUE*TEARS FOR FEARS*BON JOVI* and more&excl;</h6>
+                        </div>
+                    </div>
+                    <div >
+                        <button class="d-lg-none"  type="button" name="more">More <i class="down-arrow fas fa-chevron-down my-3"></i></button>
+                    </div>
                 </div>
             </div>
         </section>

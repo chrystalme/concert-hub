@@ -16,6 +16,31 @@ body {
   text-decoration: none;
   padding: 1rem;
 }
+.top__bar-links a:hover {
+  color: #ec5242;
+}
+
+.sub__bar {
+  margin: auto 10rem;
+}
+.sub__bar h6, .sub__bar .h6 {
+  display: inline;
+}
+.sub__bar a {
+  color: #272a31;
+  text-decoration: none;
+  padding-right: 3rem;
+}
+.sub__bar a:hover {
+  color: #ec5242;
+}
+
+#barred {
+  border: 5px solid #ec5242;
+  color: #ec5242;
+  font-weight: bold;
+  padding: 0.75rem;
+}
 
 .menu-icon {
   color: #272a31;
@@ -65,6 +90,9 @@ body {
   font-weight: bolder;
   text-transform: uppercase;
 }
+.heading img {
+  width: 80%;
+}
 
 .article__1 {
   color: #272a31;
@@ -83,9 +111,6 @@ body {
   margin: auto;
   width: 100%;
 }
-.main__program h2, .main__program .h2 {
-  border-bottom: 3px solid #ec5242;
-}
 .main__program h3, .main__program .h3 {
   color: #ec5242;
 }
@@ -98,6 +123,12 @@ body {
   border: none;
 }
 
+.decor-main {
+  border-bottom: 3px solid #ec5242;
+  margin: auto;
+  width: 50px;
+}
+
 #main__program-content {
   background: none;
 }
@@ -105,9 +136,6 @@ body {
 .featured__artists button {
   width: 100%;
   border-color: #d3d3d3;
-}
-.featured__artists h2, .featured__artists .h2 {
-  border-bottom: 3px solid #ec5242;
 }
 .featured__artists h4, .featured__artists .h4 {
   font-size: larger;
