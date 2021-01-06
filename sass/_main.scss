@@ -5,7 +5,7 @@ $grey-color: #d3d3d3;
 
 html,
 body {
-  font-family: Cocogoose, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .top__bar {
@@ -28,6 +28,9 @@ body {
   margin: auto 10rem;
   h6 {
     display: inline;
+  }
+  img{
+    width: 200px;
   }
   a {
     color: $black-color;
