@@ -137,6 +137,13 @@ body {
 
 #main__program-content {
   background: none;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  p{
+    text-align: center;
+  }
 }
 
 .featured__artists {
@@ -157,8 +164,7 @@ body {
         font-size: smaller;
     }
     img{
-        max-width: 7rem;
-        // min-height: 3rem;
+        max-width: 10rem;
     }
     .img-1 {
         position: relative;
@@ -174,4 +180,18 @@ body {
     .down-arrow {
         color: #ec5242;
     }
+}
+
+.decor-main-feature {
+  border-bottom: 3px solid #272a3167;
+  margin-left: 0;
+  margin-top: 1rem;
+  width: 40px;
+}
+
+footer{
+  font-size: 1rem;
+  img {
+    width: 7rem;
+  }
 }

@@ -132,6 +132,13 @@ body {
 #main__program-content {
   background: none;
 }
+#main__program-content img {
+  width: 50px;
+  height: 50px;
+}
+#main__program-content p {
+  text-align: center;
+}
 
 .featured__artists button {
   width: 100%;
@@ -150,7 +157,7 @@ body {
   font-size: smaller;
 }
 .featured__artists img {
-  max-width: 7rem;
+  max-width: 10rem;
 }
 .featured__artists .img-1 {
   position: relative;
@@ -165,6 +172,20 @@ body {
 }
 .featured__artists .down-arrow {
   color: #ec5242;
+}
+
+.decor-main-feature {
+  border-bottom: 3px solid #272a3167;
+  margin-left: 0;
+  margin-top: 1rem;
+  width: 40px;
+}
+
+footer {
+  font-size: 1rem;
+}
+footer img {
+  width: 7rem;
 }
 
 .about__article {
