@@ -8,12 +8,11 @@ body {
   font-family: cocogoose, Lato;
 }
 
-.top__bar{
-  background-color: $black-color;  
-  
+.top__bar {
+  background-color: $black-color;
 }
 
-.top__bar-links{
+.top__bar-links {
   margin-right: 10rem;
   a {
     color: $grey-color;
@@ -27,7 +26,7 @@ body {
 
 .sub__bar {
   margin: auto 10rem;
-  h6{
+  h6 {
     display: inline;
   }
   a {
@@ -36,9 +35,9 @@ body {
     padding-right: 3rem;
     &:hover {
       color: $orange-color;
-    }   
+    }
   }
-} 
+}
 
 #barred {
   border: 5px solid $orange-color;
@@ -60,25 +59,25 @@ body {
     }
   }
   #links {
-     display: none;
+    display: none;
   }
-  a{
+  a {
     color: $grey-color;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-    &:hover{
+    &:hover {
       color: $orange-color;
     }
-    .icon{
+    .icon {
       display: block;
       position: absolute;
       top: 0;
-      left: 0; 
-      &:hover{
+      left: 0;
+      &:hover {
         color: $orange-color;
-      }     
+      }
     }
   }
   .active {
@@ -90,10 +89,9 @@ body {
 .heading {
   color: #ec5242;
   h1 {
-      font-size: xx-large;
+    font-size: xx-large;
     font-weight: bolder;
     text-transform: uppercase;
-
   }
   img {
     width: 80%;
@@ -110,7 +108,7 @@ body {
 }
 
 .main__program {
-  background: url(/images/main-program-bg.png) repeat-y  ;
+  background: url(/images/main-program-bg.png) repeat-y;
   color: #d3d3d3;
   margin: auto;
   width: 100%;
@@ -132,7 +130,7 @@ body {
 .decor-main {
   border-bottom: 3px solid $orange-color;
   margin: auto;
-  width: 50px;    
+  width: 50px;
 }
 
 #main__program-content {
@@ -141,45 +139,45 @@ body {
     width: 50px;
     height: 50px;
   }
-  p{
+  p {
     text-align: center;
   }
 }
 
 .featured__artists {
-    button{
-        width: 100%;
-        border-color: #d3d3d3;
-    }
-    h4{
-        font-size: larger;
-        font-weight: bold;
-    }
-    h5 {        
-        color: #ec5242;
-        font-size: small;
-        font-style: italic;
-    }
-    h6{
-        font-size: smaller;
-    }
-    img{
-        max-width: 10rem;
-    }
-    .img-1 {
-        position: relative;
-        z-index: 0;
-        max-width: 4rem;
-    }
-    .img-2{
-        position: relative;
-        top: -3rem;
-        left: 1rem;
-        z-index: 1;
-    }
-    .down-arrow {
-        color: #ec5242;
-    }
+  button {
+    width: 100%;
+    border-color: #d3d3d3;
+  }
+  h4 {
+    font-size: larger;
+    font-weight: bold;
+  }
+  h5 {
+    color: #ec5242;
+    font-size: small;
+    font-style: italic;
+  }
+  h6 {
+    font-size: smaller;
+  }
+  img {
+    max-width: 10rem;
+  }
+  .img-1 {
+    position: relative;
+    z-index: 0;
+    max-width: 4rem;
+  }
+  .img-2 {
+    position: relative;
+    top: -3rem;
+    left: 1rem;
+    z-index: 1;
+  }
+  .down-arrow {
+    color: #ec5242;
+  }
 }
 
 .decor-main-feature {
@@ -189,7 +187,7 @@ body {
   width: 40px;
 }
 
-footer{
+footer {
   font-size: 1rem;
   img {
     width: 7rem;

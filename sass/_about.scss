@@ -47,11 +47,31 @@ $grey-color: #d3d3d3;
     }
 }
 
+.about__logo {
+    margin: auto;
+    text-align: center;
+    padding: 4rem;
+    img{
+        width: 450px;
+        border-bottom: 1px solid #272a316c;
+        border-top: 1px solid #272a316c;
+        border-left: 3px solid #272a316c;
+        border-right: 3px solid #272a316c;
+
+    }
+}
+
 .decor-partner {
     border-bottom: 3px solid $orange-color;
     margin: auto;
     width: 50px;    
 }
+
+input {
+    color: #d3d3d3;
+    background-color: #ec5242;
+    border: none;
+  }
 
 .partner {
     text-align: center;
