@@ -4,6 +4,19 @@ body {
   font-family: cocogoose, Lato;
 }
 
+.top__bar {
+  background-color: #272a31;
+}
+
+.top__bar-links {
+  margin-right: 10rem;
+}
+.top__bar-links a {
+  color: #d3d3d3;
+  text-decoration: none;
+  padding: 1rem;
+}
+
 .menu-icon {
   color: #272a31;
   overflow: hidden;
@@ -118,7 +131,7 @@ body {
 }
 .featured__artists .img-2 {
   position: relative;
-  top: -2rem;
+  top: -3rem;
   left: 1rem;
   z-index: 1;
 }

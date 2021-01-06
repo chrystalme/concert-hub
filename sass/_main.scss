@@ -8,6 +8,19 @@ body {
   font-family: cocogoose, Lato;
 }
 
+.top__bar{
+  background-color: $black-color;  
+  
+}
+.top__bar-links{
+  margin-right: 10rem;
+  a{
+    color: $grey-color;
+    text-decoration: none;
+    padding: 1rem;
+  }
+}
+
 .menu-icon {
   color: #272a31;
   overflow: hidden;
@@ -124,7 +137,7 @@ body {
     }
     .img-2{
         position: relative;
-        top: -2rem;
+        top: -3rem;
         left: 1rem;
         z-index: 1;
     }
