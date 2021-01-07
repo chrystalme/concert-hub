@@ -3,6 +3,11 @@ $black-color: #272a31;
 $orange-color: #ec5242;
 $grey-color: #d3d3d3;
 
+.envelope {
+  border: 10px solid transparent;
+  border-image: url(/images/mail_bg.jpg) 20% round;
+}
+
 .section__ticket {
   text-align: center;
 

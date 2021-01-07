@@ -8,6 +8,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+  font-size: 1rem;
+
+  img {
+    width: 7rem;
+  }
+}
+
 .top__bar {
   background-color: $black-color;
 }
@@ -19,10 +27,6 @@ body {
     color: $grey-color;
     text-decoration: none;
     padding: 0.75rem;
-
-    &:hover {
-      color: $orange-color;
-    }
   }
 }
 
@@ -41,10 +45,6 @@ body {
     color: $black-color;
     text-decoration: none;
     padding-right: 3rem;
-
-    &:hover {
-      color: $orange-color;
-    }
   }
 }
 
@@ -64,7 +64,7 @@ body {
   color: #272a31;
   overflow: hidden;
   position: relative;
-  background-image: url(./images/3682513.jpg);
+  background: url(./images/3682513.jpg);
   background-size: cover;
 
   i {
@@ -85,10 +85,6 @@ body {
     text-decoration: none;
     font-size: 17px;
     display: block;
-
-    &:hover {
-      color: $orange-color;
-    }
 
     .icon {
       display: block;
@@ -161,20 +157,6 @@ body {
   width: 50px;
 }
 
-#main__program-content {
-  background: none;
-  width: 90%;
-
-  img {
-    width: 50px;
-    height: 50px;
-  }
-
-  p {
-    text-align: center;
-  }
-}
-
 .featured__artists {
   button {
     width: 100%;
@@ -198,6 +180,20 @@ body {
 
   img {
     max-width: 10rem;
+  }
+
+  #main__program-content {
+    background: none;
+    width: 90%;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    p {
+      text-align: center;
+    }
   }
 
   .img-1 {
@@ -225,10 +221,6 @@ body {
   width: 40px;
 }
 
-footer {
-  font-size: 1rem;
-
-  img {
-    width: 7rem;
-  }
+a:hover {
+  color: $orange-color;
 }
