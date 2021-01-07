@@ -4,9 +4,9 @@
 
 > Concert creative worldwide is an entertainment outfit that organises all kinds of shows
 
-![screenshot](./app_screenshot.png)
-![screenshot-tablet](./app_screenshot-tab.png)
-![screenshot-Desktop](./app_screenshot-desktop.png)
+![screenshot](./images/app_screenshot.png)
+![screenshot-tablet](./images/app_screenshot-tab.png)
+![screenshot-Desktop](./images/app_screenshot-desktop.png)
 
 Concert creative worldwide is a fictitious company that organises various kinds of entertainment event. This website is a place for individuals to get their tickets, pay for the ticket and buy food for themselves before coming to the event. This site seeks to make a booking, selecting an event to attend and getting refreshment hassle-free. 
 
