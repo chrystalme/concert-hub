@@ -26,19 +26,24 @@ body {
 
 .sub__bar {
   margin: auto 10rem;
+
   h6 {
     display: inline;
   }
+
   img{
     width: 200px;
   }
+
   a {
     color: $black-color;
     text-decoration: none;
     padding-right: 3rem;
+
     &:hover {
       color: $orange-color;
     }
+
   }
 }
 
@@ -100,14 +105,18 @@ body {
     width: 80%;
   }
 }
+
 .article__1 {
   color: #272a31;
 }
+
 .schedule {
   color: #272a31;
+
   h2 {
     font-weight: bold;
   }
+  
 }
 
 .main__program {
