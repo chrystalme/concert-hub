@@ -75,10 +75,6 @@ footer {
     }
   }
 
-  #links {
-    display: none;
-  }
-
   a {
     color: $grey-color;
     padding: 14px 16px;
@@ -229,4 +225,18 @@ footer {
 
 a:hover {
   color: $orange-color;
+}
+
+#links {
+  width: 80%;
+  margin: auto;
+
+  a {
+    display: inline;
+    font-size: large;
+
+    &:hover {
+      color: $orange-color;
+    }
+  }
 }

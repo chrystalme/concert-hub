@@ -10703,9 +10703,6 @@ footer img {
 .menu-icon i:hover {
   color: #ec5242;
 }
-.menu-icon #links {
-  display: none;
-}
 .menu-icon a {
   color: #d3d3d3;
   padding: 14px 16px;
@@ -10833,6 +10830,18 @@ footer img {
 }
 
 a:hover {
+  color: #ec5242;
+}
+
+#links {
+  width: 80%;
+  margin: auto;
+}
+#links a {
+  display: inline;
+  font-size: large;
+}
+#links a:hover {
   color: #ec5242;
 }
 

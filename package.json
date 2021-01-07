@@ -19,7 +19,8 @@
   "homepage": "https://github.com/chrystalme/concert-hub#readme",
   "dependencies": {
     "bootstrap": "^5.0.0-beta1",
-    "bootstrap-icons": "^1.2.2"
+    "bootstrap-icons": "^1.2.2",
+    "jquery": "^3.5.1"
   },
   "devDependencies": {
     "stylelint": "13.3.x",
