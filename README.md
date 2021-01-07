@@ -24,8 +24,11 @@ Concert creative worldwide is a fictitious company that organises various kinds 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-    - make sure you have node installed
-    - copy the repository and install it on your local Machine
+    - clone the repository and install it on your local Machine
+      - git clone https://github.com/chrystalme/concert-hub.git
+    - change directory
+      - cd concert-hub  
+    - make sure you install bootstrap using 'npm install bootstrap@next'
 
 
 ### Prerequisites
