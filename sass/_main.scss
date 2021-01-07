@@ -48,7 +48,7 @@ body {
 }
 
 .bg__main {
-  background: linear-gradient(0deg, rgba(0 234 24  / 60%) 0%, rgba(0 0 0 / 75%) 100% ), url(/images/4809423.jpg) no-repeat;
+  background: linear-gradient(0deg, rgba(0 234 24  / 60%) 0%, rgba(0 0 0 / 75%) 100% ), url(./images/4809423.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -63,7 +63,7 @@ body {
   color: #272a31;
   overflow: hidden;
   position: relative;
-  background-image: url(/images/3682513.jpg);
+  background-image: url(./images/3682513.jpg);
   background-size: cover;
   i {
     color: $grey-color;
@@ -125,7 +125,7 @@ body {
 }
 
 .main__program {
-  background: url(/images/main-program-bg.png) repeat-y;
+  background: url(./images/main-program-bg.png) repeat-y;
   color: #d3d3d3;
   margin: auto;
   width: 100%;
