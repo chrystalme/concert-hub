@@ -10670,7 +10670,7 @@ footer img {
 }
 
 .bg__main {
-  background: linear-gradient(0deg, rgba(0, 234, 24, 0.6) 0%, rgba(0, 0, 0, 0.75) 100%), url(./images/4809423.jpg) no-repeat;
+  background: linear-gradient(0deg, rgba(0, 234, 24, 0.6) 0%, rgba(0, 0, 0, 0.75) 100%), url(../images/4809423.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -10685,7 +10685,7 @@ footer img {
   color: #272a31;
   overflow: hidden;
   position: relative;
-  background: url(./images/3682513.jpg);
+  background: url(../images/3682513.jpg);
   background-size: cover;
 }
 .menu-icon i {
@@ -10742,7 +10742,7 @@ footer img {
 }
 
 .main__program {
-  background: url(./images/main-program-bg.png) repeat-y;
+  background: url(../images/main-program-bg.png) repeat-y;
   color: #d3d3d3;
   margin: auto;
   width: 100%;
@@ -10841,14 +10841,14 @@ a:hover {
 }
 
 .event-2019 {
-  background: linear-gradient(0deg, rgba(208, 0, 0, 0.6) 0%, rgba(214, 3, 3, 0.75) 100%), url(./images/pexels-roman-odintsov-6334542.jpg) no-repeat;
+  background: linear-gradient(0deg, rgba(208, 0, 0, 0.6) 0%, rgba(214, 3, 3, 0.75) 100%), url(../images/pexels-roman-odintsov-6334542.jpg) no-repeat;
   height: 250px;
   width: 90%;
   background-size: cover;
 }
 
 .event-2020 {
-  background: linear-gradient(0deg, rgba(208, 0, 0, 0.6) 0%, rgba(214, 3, 3, 0.75) 100%), url(./images/pexels-cottonbro-3171837.jpg) no-repeat;
+  background: linear-gradient(0deg, rgba(208, 0, 0, 0.6) 0%, rgba(214, 3, 3, 0.75) 100%), url(../images/pexels-cottonbro-3171837.jpg) no-repeat;
   height: 250px;
   width: 90%;
   background-size: cover;
@@ -10906,7 +10906,7 @@ input {
 
 .envelope {
   border: 10px solid transparent;
-  border-image: url(/images/mail_bg.jpg) 20% round;
+  border-image: url(../images/mail_bg.jpg) 20% round;
 }
 
 .section__ticket {
