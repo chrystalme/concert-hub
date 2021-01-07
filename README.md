@@ -2,13 +2,13 @@
 
 # Concert Hub
 
-> Concert creative worlwide is an entertainment outfit that organises all kinds of shows
+> Concert creative worldwide is an entertainment outfit that organises all kinds of shows
 
 ![screenshot](./app_screenshot.png)
 ![screenshot-tablet](./app_screenshot-tab.png)
 ![screenshot-Desktop](./app_screenshot-desktop.png)
 
-Creative creative worlwide is a fictitious company that organises various kinds of entertainment event. This website is a place for individuals to get their tickets, pay for the ticket and buy food for themselves before coming to the event. This site seeks to make booking, selecting an event to attend and getting refreshment hassle free. 
+Concert creative worldwide is a fictitious company that organises various kinds of entertainment event. This website is a place for individuals to get their tickets, pay for the ticket and buy food for themselves before coming to the event. This site seeks to make a booking, selecting an event to attend and getting refreshment hassle-free. 
 
 ## Built With
 

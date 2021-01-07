@@ -17,7 +17,7 @@ body {
   a {
     color: $grey-color;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.75rem;
     &:hover {
       color: $orange-color;
     }
@@ -47,6 +47,11 @@ body {
   }
 }
 
+.bg__main {
+  background: linear-gradient(0deg, rgba(0 234 24  / 60%) 0%, rgba(0 0 0 / 75%) 100% ), url(/images/4809423.jpg) no-repeat;
+  background-size: cover;
+}
+
 #barred {
   border: 5px solid $orange-color;
   color: $orange-color;
@@ -58,7 +63,7 @@ body {
   color: #272a31;
   overflow: hidden;
   position: relative;
-  background-image: url(images/3682513.jpg);
+  background-image: url(/images/3682513.jpg);
   background-size: cover;
   i {
     color: $grey-color;
@@ -120,7 +125,7 @@ body {
 }
 
 .main__program {
-  background: url(images/main-program-bg.png) repeat-y;
+  background: url(/images/main-program-bg.png) repeat-y;
   color: #d3d3d3;
   margin: auto;
   width: 100%;
@@ -147,6 +152,7 @@ body {
 
 #main__program-content {
   background: none;
+  width:90%;
   img {
     width: 50px;
     height: 50px;

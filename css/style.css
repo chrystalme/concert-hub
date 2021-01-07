@@ -24,7 +24,7 @@ body {
 .top__bar-links a {
   color: #d3d3d3;
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.75rem;
 }
 .top__bar-links a:hover {
   color: #ec5242;
@@ -46,6 +46,11 @@ body {
 }
 .sub__bar a:hover {
   color: #ec5242;
+}
+
+.bg__main {
+  background: linear-gradient(0deg, rgba(0, 234, 24, 0.6) 0%, rgba(0, 0, 0, 0.75) 100%), url(/images/4809423.jpg) no-repeat;
+  background-size: cover;
 }
 
 #barred {
@@ -144,6 +149,7 @@ body {
 
 #main__program-content {
   background: none;
+  width: 90%;
 }
 #main__program-content img {
   width: 50px;
