@@ -1,7 +1,13 @@
 /* stylelint-disable indentation */
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Variables
+$black-color: #272a31;
+$orange-color: #ec5242;
+$grey-color: #d3d3d3;
+
 @import "small-screen";
 @import "main";
 @import "about";
 @import "get-ticket";
 @import "desktop";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -10,6 +10,20 @@
       font-size: x-small;
     }
   }
+
+  #links {
+    width: 100%;
+    margin: auto;
+
+    a {
+      display: inline;
+      font-size: xx-small;
+
+      &:hover {
+        color: $orange-color;
+      }
+    }
+  }
 }
 
 @media (min-width: 767px) {
@@ -19,5 +33,19 @@
 
   .event-2019 {
     width: 95%;
+  }
+
+  #links {
+    width: 80%;
+    margin: auto;
+
+    a {
+      display: inline;
+      font-size: larger;
+
+      &:hover {
+        color: $orange-color;
+      }
+    }
   }
 }
