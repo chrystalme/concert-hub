@@ -26,24 +26,6 @@ footer {
   }
 }
 
-.sub__bar {
-  margin: auto 10rem;
-
-  h6 {
-    display: inline;
-  }
-
-  img {
-    width: 200px;
-  }
-
-  a {
-    color: $black-color;
-    text-decoration: none;
-    padding-right: 3rem;
-  }
-}
-
 .bg__main {
   background: linear-gradient(0deg, rgba(0 234 24  / 60%) 0%, rgba(0 0 0 / 75%) 100%), url(../images/4809423.jpg) no-repeat;
   background-size: cover;
@@ -155,6 +137,39 @@ footer {
   width: 50px;
 }
 
+.decor-main-feature {
+  border-bottom: 3px solid #272a3167;
+  margin-left: 0;
+  margin-top: 1rem;
+  width: 40px;
+}
+
+a:hover {
+  color: $orange-color;
+}
+
+.sub__bar {
+  margin: auto 10rem;
+
+  h6 {
+    display: inline;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  a {
+    color: $black-color;
+    text-decoration: none;
+    padding-right: 3rem;
+
+    &:hover {
+      color: $orange-color;
+    }
+  }
+}
+
 .featured__artists {
   button {
     width: 100%;
@@ -210,17 +225,6 @@ footer {
   .down-arrow {
     color: #ec5242;
   }
-}
-
-.decor-main-feature {
-  border-bottom: 3px solid #272a3167;
-  margin-left: 0;
-  margin-top: 1rem;
-  width: 40px;
-}
-
-a:hover {
-  color: $orange-color;
 }
 
 #links {
