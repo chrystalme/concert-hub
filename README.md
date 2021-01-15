@@ -1,65 +1,54 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Concert Hub
 
-> One paragraph statement about the project.
+> Concert creative worldwide is an entertainment outfit that organises all kinds of shows
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/app_screenshot.png)
+![screenshot-tablet](./images/app_screenshot-tab.png)
+![screenshot-Desktop](./images/app_screenshot-desktop.png)
 
-Additional description about the project and its features.
+Concert creative worldwide is a fictitious company that organises various kinds of entertainment event. This website is a place for individuals to get their tickets, pay for the ticket and buy food for themselves before coming to the event. This site seeks to make a booking, selecting an event to attend and getting refreshment hassle-free. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS and Javascript
+- Bootstrap
+- SASS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://chrystalme.github.io/concert-hub/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+    - clone the repository and install it on your local Machine
+      - git clone https://github.com/chrystalme/concert-hub.git
+    - change directory
+      - cd concert-hub  
+    - make sure you install bootstrap using 'npm install bootstrap@next'
+
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+    - Bootstrap 5
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Malieze Afam Ifeanyi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@chrystalme](https://github.com/chrystalme)
+- Twitter: [@afam_ifeanyi](https://twitter.com/afam_ifeanyi)
+- LinkedIn: [LinkedIn](https://linkedin.com/afam-ifeanyi-chrys-malieze-63876576)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/chrystalme/concert-hub/issues).
 
 ## Show your support
 
@@ -67,10 +56,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- [Microverse](https://microverse.com)
 - Inspiration
-- etc
+    -[Cindy](https://behance.net/adagio07)
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://mit-license.org) licensed.

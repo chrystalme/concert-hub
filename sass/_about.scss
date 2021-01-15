@@ -1,0 +1,91 @@
+//Variables
+$black-color: #272a31;
+$orange-color: #ec5242;
+$grey-color: #d3d3d3;
+
+.about__article {
+  border: 1px solid $grey-color;
+  background-color: white;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+
+  a {
+    color: $black-color;
+  }
+}
+
+.decor {
+  border-bottom: 3px solid $orange-color;
+  margin: auto;
+  width: 30px;
+}
+
+.event-2019 {
+  background: linear-gradient(0deg, rgb(208 0 0 / 60%) 0%, rgb(214 3 3 / 75%) 100%), url(../images/pexels-roman-odintsov-6334542.jpg) no-repeat;
+  height: 250px;
+  background-size: cover;
+}
+
+.event-2020 {
+  background: linear-gradient(0deg, rgb(208 0 0 / 60%) 0%, rgb(214 3 3 / 75%) 100%), url(../images/pexels-cottonbro-3171837.jpg) no-repeat;
+  height: 250px;
+  background-size: cover;
+}
+
+.about__event {
+  a {
+    text-decoration: none;
+    color: #d3d3d3;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-weight: bolder;
+  }
+}
+
+.about__logo {
+  margin: auto;
+  text-align: center;
+  padding: 4rem;
+
+  img {
+    width: 100%;
+    border-bottom: 1px solid #272a316c;
+    border-top: 1px solid #272a316c;
+    border-left: 3px solid #272a316c;
+    border-right: 3px solid #272a316c;
+  }
+}
+
+.decor-partner {
+  border-bottom: 3px solid $orange-color;
+  margin: auto;
+  width: 50px;
+}
+
+input {
+  color: #d3d3d3;
+  background-color: #ec5242;
+  border: none;
+}
+
+.partner {
+  text-align: center;
+  color: $grey-color;
+  background-color: $black-color;
+}
+
+.partner__logos {
+  width: 100%;
+
+  img {
+    width: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+}

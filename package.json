@@ -1,0 +1,31 @@
+{
+  "name": "concert-hub",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrystalme/concert-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrystalme/concert-hub/issues"
+  },
+  "homepage": "https://github.com/chrystalme/concert-hub#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "bootstrap-icons": "^1.2.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x"
+  }
+}
