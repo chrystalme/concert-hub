@@ -67,21 +67,6 @@ footer img {
   padding: 0.75rem;
 }
 
-.sub__bar {
-  margin: auto 10rem;
-}
-.sub__bar h6, .sub__bar .h6 {
-  display: inline;
-}
-.sub__bar img {
-  width: 200px;
-}
-.sub__bar a {
-  color: #272a31;
-  text-decoration: none;
-  padding-right: 3rem;
-}
-
 .bg__main {
   background: linear-gradient(0deg, rgba(0, 234, 24, 0.6) 0%, rgba(0, 0, 0, 0.75) 100%), url(../images/4809423.jpg) no-repeat;
   background-size: cover;
@@ -181,6 +166,35 @@ footer img {
   width: 50px;
 }
 
+.decor-main-feature {
+  border-bottom: 3px solid #272a3167;
+  margin-left: 0;
+  margin-top: 1rem;
+  width: 40px;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+.sub__bar {
+  margin: auto 10rem;
+}
+.sub__bar h6, .sub__bar .h6 {
+  display: inline;
+}
+.sub__bar img {
+  width: 200px;
+}
+.sub__bar a {
+  color: #272a31;
+  text-decoration: none;
+  padding-right: 3rem;
+}
+.sub__bar a:hover {
+  color: #ec5242;
+}
+
 .featured__artists button {
   width: 100%;
   border-color: #d3d3d3;
@@ -226,26 +240,17 @@ footer img {
   color: #ec5242;
 }
 
-.decor-main-feature {
-  border-bottom: 3px solid #272a3167;
-  margin-left: 0;
-  margin-top: 1rem;
-  width: 40px;
-}
-
-a:hover {
-  color: #ec5242;
-}
-
-#links {
-  width: 80%;
+.links {
+  width: 100%;
   margin: auto;
 }
-#links a {
-  display: inline;
+.links a {
+  display: block;
   font-size: large;
+  text-decoration: none;
+  color: #d3d3d3;
 }
-#links a:hover {
+.links a:hover {
   color: #ec5242;
 }
 

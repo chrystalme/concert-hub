@@ -227,13 +227,15 @@ a:hover {
   }
 }
 
-#links {
-  width: 80%;
+.links {
+  width: 100%;
   margin: auto;
 
   a {
-    display: inline;
+    display: block;
     font-size: large;
+    text-decoration: none;
+    color: $grey-color;
 
     &:hover {
       color: $orange-color;
