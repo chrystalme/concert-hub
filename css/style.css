@@ -66,6 +66,9 @@ footer img {
   text-decoration: none;
   padding: 0.75rem;
 }
+.top__bar-links a:hover {
+  color: #ec5242;
+}
 
 .bg__main {
   background: linear-gradient(0deg, rgba(0, 234, 24, 0.6) 0%, rgba(0, 0, 0, 0.75) 100%), url(../images/4809423.jpg) no-repeat;
